@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools{
-     "MAVE_HOME"
+     mave "MAVE_HOME"
     }
      stages{
       stage('Hello'){
